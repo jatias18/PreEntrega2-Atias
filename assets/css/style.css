@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar{
+  margin: 0;
+  padding-top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #45ab48;
+  
+}
+
+.logo {
+  margin-top: 15px;
+  margin-bottom: 0;
+  width: 30%;
+  height: 70px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.logo-web {
+  width: 60%;
+}
+
+nav ul li a, nav .menuToggle i {
+  color:#fff!important ;
+}
+
+.banner-principal{
+  position:relative;
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+  
+  }
+
+.titulo-principal {
+  justify-content: center;
+  text-align:center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+ .categorias{
+    margin-left: 50px;
+    p
+  }
+
+ 
+.seccion-categoria {
+  display: flex; 
+  justify-content: space-between; 
+  max-width: 100%; 
+  margin: 50 auto;
+  padding-bottom: 100px;
+  padding-left: 20%;
+  padding-right: 20%; 
+}
+
+
+.categoria {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  padding: 10px;
+  
+}
+
+.categoria:hover {
+color: #45ab48;
+  
+}
+
+.categoria-icon {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  margin-bottom: 0; 
+}
+
+
+.categoria-icon img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 50%;
+  border: 3px solid #45ab48;
+  
+}
+
+.categoria-icon img:hover {
+  border: 5px solid #d8d8d8;
+
+}
+
+.popular-products {
+  margin-top: 30px;
+}
+
+.destacados {
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+.row{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.producto {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.producto img {
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+
+}
+
+.producto img:hover {
+  box-shadow:  6px -6px 9px rgba(0,0,0,0.3);
+  transform: translateY(-5px) ;
+  transition:.3s ease all;
+}
+
+.titulo-producto {
+  margin-top: 10px;
+}
+
+.footer{
+  background-color: #45ab48;
+  color: white;
+  height: 250px;
+  padding-top: 30px;
+  align-items: center;
+  align-content: center;
+
+}
+
+.boton {
+  background-color: #2F2F2F;
+  border: none;
+}
+
+.boton:hover {
+  background-color: #45ab48;
+  border: none;
+}
+
+.menufooter{
+  align-items: center;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
