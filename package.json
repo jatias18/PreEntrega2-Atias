@@ -1,11 +1,11 @@
 {
-  "name": "packege.json",
+  "name": "pf-atias",
   "version": "1.0.0",
+  "description": "He Agregado las actualizaciones, tuve muchos problemas para poder realizar la actualizacion en GitHub, no lograba hacerlo.\r Espero cumpla con los requerido.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }

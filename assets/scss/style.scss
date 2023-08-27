@@ -149,6 +149,106 @@ padding-bottom: 60px;
 
   }
 
+/** Esta sección corresponde a la pagina nosotros**/
+
+.titulo-principal {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 60px;
+
+  .grid-container .image-container {
+    max-width: 100%;
+  }
+  
+  .grid-container .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+}
+
+
+.h2-1 {
+  padding-bottom: 50px;
+  padding-top: 20px;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.seccion-equipo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 50 auto;
+  padding-bottom: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+
+    .equipo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+      .equipo-icon {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: 0;
+      }
+  
+        .equipo-icon img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+          border: 5px solid #45ab48;
+        }
+        
+}
+
+/** Esta Sección corresponde a la pagina de contacto**/
+
+.h2 {
+  padding-bottom: 50px;
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 20%;
+  font-size: 28px;
+    
+}
+
+.textocontacto{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
   @import "_responsive";
 
   @import "_footer";

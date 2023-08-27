@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**Variables**/
 * {
   margin: 0;
@@ -72,8 +73,7 @@
 .seccion-categoria .categoria-icon img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 50%;
   border: 4px solid #45ab48;
 }
@@ -101,8 +101,7 @@
   width: 100%;
   height: 100%;
   max-height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
@@ -125,8 +124,7 @@
   width: 100%;
   height: 100%;
   max-height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
@@ -147,6 +145,86 @@
   border: none;
   animation: pulse;
   animation-duration: 1s;
+}
+
+/** Esta sección corresponde a la pagina nosotros**/
+.titulo-principal {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 60px;
+}
+.grid-container .grid-container .image-container {
+  max-width: 100%;
+}
+.grid-container .grid-container .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h2-1 {
+  padding-bottom: 50px;
+  padding-top: 20px;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.seccion-equipo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 50 auto;
+  padding-bottom: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.seccion-equipo .equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.seccion-equipo .equipo-icon {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.seccion-equipo .equipo-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #45ab48;
+}
+
+/** Esta Sección corresponde a la pagina de contacto**/
+.h2 {
+  padding-bottom: 50px;
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 20%;
+  font-size: 28px;
+}
+
+.textocontacto {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 60px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -222,4 +300,6 @@
   background-color: #45ab48;
   padding-top: 5px;
   padding-bottom: 0px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
